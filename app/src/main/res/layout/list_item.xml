@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/horizontal_spacing_small"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardElevation="@dimen/vertical_spacing_small"
+    app:cardMaxElevation="@dimen/vertical_spacing_small">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/horizontal_spacing_small"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorCerise"
+            android:textStyle="bold"
+            tools:text="WeWork gets into the food business, backing the superfood startup of big wave surfer Laird Hamilton" />
+
+        <TextView
+            android:id="@+id/item_pubDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/horizontal_spacing_small"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAbbey"
+            android:textStyle="bold"
+            tools:text="Fri, 11 Jan 2019 22:39:10 +0000" />
+
+    </LinearLayout>
+
+</android.support.design.card.MaterialCardView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".ui.details.DetailsFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_spacing_small"
+                android:layout_marginBottom="@dimen/vertical_spacing_small"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/colorCerise"
+                android:textStyle="bold"
+                tools:text="WeWork gets into the food business, backing the superfood startup of big wave surfer Laird Hamilton" />
+
+            <TextView
+                android:id="@+id/pubDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_spacing_small"
+                android:layout_marginBottom="@dimen/vertical_spacing_small"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAbbey"
+                tools:text="Fri, 11 Jan 2019 22:39:10 +0000" />
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_spacing_small"
+                android:layout_marginBottom="@dimen/vertical_spacing_small"
+                android:clickable="true"
+                android:focusable="true"
+                android:linksClickable="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent"
+                tools:text="https://techcrunch.com/2019/01/11/ankers-powerport-atom-is-my-permanent-new-travel-companion" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_spacing_small"
+                android:layout_marginBottom="@dimen/vertical_spacing_small"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAbbey"
+                tools:text="I had fight a couple of coworkers for this thing. It’s a strange thing to fight over, I realize, but we are strange people with a strange job. And more importantly, I won. I’m plugged into the PowerPort Atom as I write this. It’s keeping my 13-inch MacBook Pro alive via the plane power outlet" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

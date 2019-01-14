@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RSS News Reader</string>
+    <string name="add_provider">اضافة مصدر</string>
+    <string name="control_providers">التحكم في المصادر</string>
+    <string name="select_provider">اختر المصدر</string>
+    <string name="provider_link">لينك المصدر</string>
+    <string name="done">تم</string>
+    <string name="details">التفاصيل</string>
+    <string name="provider_exist">المصدر موجود مسبقا!</string>
+    <string name="invalid_provider_error">ادخل لينك مصدر صحيح!</string>
+    <string name="enter_provider">ادخل لينك للمصدر!</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RSS News Reader</string>
+    <string name="add_provider">Add Provider</string>
+    <string name="control_providers">Control Providers</string>
+    <string name="select_provider">Select Provider</string>
+    <string name="provider_link">Provider Link</string>
+    <string name="done">Done</string>
+    <string name="details">Details</string>
+    <string name="provider_exist">Provider Already Exist!</string>
+    <string name="invalid_provider_error">Enter a Valid Provider Link!</string>
+    <string name="enter_provider">Enter Provider Link!</string>
+</resources>
